@@ -11,6 +11,7 @@ Ex: docker build -t tomcat
   
   
   
+
 In the working directory of Dockerfile run the command as 
 
 docker run -d -p <some-host-port>:8080 <your-image-name>
@@ -18,6 +19,7 @@ docker run -d -p <some-host-port>:8080 <your-image-name>
 Ex: docker run -d -p 18080:8080 tomcat
   
   
+
 
 After running this we need to check the service is working or not.
 
